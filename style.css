@@ -57,7 +57,7 @@ main {
 
 .timeline {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 70px;
     display: grid;
     gap: 40px;
     /* background-color: goldenrod; */
