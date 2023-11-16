@@ -31,77 +31,76 @@
         <div class="container">
             <h1>Comandos - Git</h1>
             <div class="timeline">
-                    <!-- <p>5 Branches ( Ramificações )</p>
-                    <p>6 Desfazendo alterações</p>
-                    <p>7 Histórico</p>
-                    <p>8 Tags</p>
-                    <p>9 Stashing</p> -->
-                <div class="content">
-                    <article class="configurando_git">
-                        <h2>Configurando Git</h2>
-                        <p>
-                            <span class="code">git config --global user.name "Seu usuário cadastrado no github"</span>
-                            <br><br> Configura seu nome globalmente.
-                        </p><br>
-                        <p>
-                            <span class="code">git config --global user.email "Seu email cadastrado no github"</span>
-                            <br><br> Configura seu email globalmente.
-                        </p>
-                    </article>
-                    <article class="criando_e_clonando_repositorios">
-                        <h2>Criando e clonando repositórios</h2>
-                        <p>
-                            <span class="code">git init</span>
-                            <br><br> Inicia um novo repositório git.
-                        </p><br>
-                        <p>
-                            <span class="code">git clone url do seu repositório no github</span>
-                            <br><br> Clona um repositório remoto.
-                        </p>
-                    </article>
-                    <article class="fazendo_mudancas">
-                        <h2>Fazendo mudanças</h2>
-                        <p>
-                            <span class="code">git add nome do arquivo</span>
-                            <br><br> Seleciona um arquivo e adiciona as mudanças ao "Index" deixando-as prontas para commit.
-                        </p><br>
-                        <p>
-                            <span class="code">git add .</span>
-                            <br><br> Seleciona todos os arquivos e adiciona as mudanças ao "Index" deixando-as prontas para commit.
-                        </p><br>
-                        <p>
-                            <span class="code">git commit -m "mensagem"</span>
-                            <br><br> Envia os arquivos para o "Head", mas não para o repositório remoto.
-                        </p><br>
-                        <p>
-                            <span class="code">git status</span>
-                            <br><br> Mostra o status do seu diretório de trabalho.
-                        </p><br>
-                        <p>
-                            <span class="code">git diff</span>
-                            <br><br> Mostra as diferenças entre o diretório de trabalho e o último commit.
-                        </p>
-                    </article>
-                    <article class="repositorios_remoto">
-                        <h2>Repositórios remoto</h2>
-                        <p>
-                            <span class="code">git remote -v</span>
-                            <br><br> Lista os repositórios remoto.
-                        </p><br>
-                        <p>
-                            <span class="code">git remote add origin url do repositório remoto</span>
-                            <br><br> Adiciona um novo repositório remoto.
-                        </p><br>
-                        <p>
-                            <span class="code">git remote rm origin</span>
-                            <br><br> Remove um repositório remoto.
-                        </p>
-                        <p>
-                            <span class="code">git push origin nome da branch</span>
-                            <br><br> Envia as alterações ao repositório remoto.
-                        </p>
-                    </article>
-                </div>
+                <!-- <p>5 Branches ( Ramificações )</p>
+                <p>6 Desfazendo alterações</p>
+                <p>7 Histórico</p>
+                <p>8 Tags</p>
+                <p>9 Stashing</p> -->
+            
+                <article class="configurando_git">
+                    <h2>Configurando Git</h2>
+                    <div class="content">
+                        <span class="code">git config --global user.name "Seu usuário cadastrado no github"</span>
+                        <p>Configura seu nome globalmente.</p>
+                    </div>
+                    <div class="content">
+                        <span class="code">git config --global user.email "Seu email cadastrado no github"</span>
+                        <p>Configura seu email globalmente.</p>
+                    </div>
+                </article>
+                <article class="criando_e_clonando_repositorios">
+                    <h2>Criando e clonando repositórios</h2>
+                    <div class="content">
+                        <span class="code">git init</span>
+                        <p>Inicia um novo repositório git.</p>
+                    </div>
+                    <div class="content">
+                        <span class="code">git clone url do seu repositório no github</span>
+                        <p>Clona um repositório remoto.</p>
+                    </div>
+                </article>
+                <article class="fazendo_mudancas">
+                    <h2>Fazendo mudanças</h2>
+                    <div class="content">
+                        <span class="code">git add nome do arquivo</span>
+                        <p>Seleciona um arquivo e adiciona as mudanças ao "Index" deixando-as prontas para commit.</p>
+                    </div>
+                    <div class="content">
+                        <span class="code">git add .</span>
+                        <p>Seleciona todos os arquivos e adiciona as mudanças ao "Index" deixando-as prontas para commit.</p>
+                    </div>
+                    <div class="content">
+                        <span class="code">git commit -m "mensagem"</span>
+                        <p>Envia os arquivos para o "Head", mas não para o repositório remoto.</p>
+                    </div>
+                    <div class="content">
+                        <span class="code">git status</span>
+                        <p>Mostra o status do seu diretório de trabalho.</p>
+                    </div>
+                    <div class="content">
+                        <span class="code">git diff</span>
+                        <p>Mostra as diferenças entre o diretório de trabalho e o último commit.</p>
+                    </div>
+                </article>
+                <article class="repositorios_remoto">
+                    <h2>Repositórios remoto</h2>
+                    <div class="content">
+                        <span class="code">git remote -v</span>
+                        <p>Lista os repositórios remoto.</p>
+                    </div>
+                    <div class="content">
+                        <span class="code">git remote add origin url do repositório remoto</span>
+                        <p>Adiciona um novo repositório remoto.</p>
+                    </div>
+                    <div class="content">
+                        <span class="code">git remote rm origin</span>
+                        <p>Remove um repositório remoto.</p>
+                    </div>
+                    <div class="content">
+                        <span class="code">git push origin nome da branch</span>
+                        <p>Envia as alterações ao repositório remoto.</p>
+                    </div>
+                </article>
             </div>
         </div>
     </main>
