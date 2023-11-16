@@ -113,13 +113,6 @@ article > h2 {
     .timeline {
         width: 100%;
     }
-    .configurando_git {
-        height: 360px;
-    }
-    .fazendo_mudancas {
-        min-height: 640px;
-    }
-
     .content {
         height: auto;
     }
