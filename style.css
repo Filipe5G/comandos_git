@@ -112,8 +112,13 @@ main {
     .timeline, .content {
         width: 100%;
     }
-
+    .configurando_git, .criando_e_clonando_repositorios {
+        margin: 20px 0 20px 0;
+    }
     .fazendo_mudancas {
-        height: 640px;
+        min-height: 640px;
+    }
+    .code {
+        margin: 15px 0 0 0;
     }
 }
